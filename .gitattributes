@@ -1,0 +1,29 @@
+# Boilerplate .gitattributes
+* 		text=auto 	!eol
+
+**/src/**	text		eol=lf
+
+.gitignore	text
+.gitattributes	text
+
+*.html   	text		diff=html
+*.css    	text
+*.js		text
+*.ts		text
+*.tsx		text
+*.svg		text
+*.json		text
+*.md		text
+
+*.jpg		binary
+*.png		binary
+*.webp		binary
+*.mp4           binary
+
+# Font files are resources, but still binary
+*.eot		binary
+*.otf		binary
+*.svg		binary
+*.ttf		binary
+*.woff		binary
+*.woff2		binary

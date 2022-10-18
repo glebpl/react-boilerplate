@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": ".",
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "inlineSources": true,
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "ES2017"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmitHelpers": true,
+    "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strictBindCallApply": true,
+    "strictNullChecks": true,
+    "outDir": "build",
+    "target": "es5",
+    "useUnknownInCatchVariables": true
+  },
+  "include": [
+    "src/**/*",
+    ".storybook/**/*"
+  ],
+  "ts-node": {
+    "files": true
+  }
+}
