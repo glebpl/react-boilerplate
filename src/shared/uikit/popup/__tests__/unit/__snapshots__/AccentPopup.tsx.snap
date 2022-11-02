@@ -1,0 +1,2292 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches basic snapshot 1`] = `
+.emotion-0 {
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  border-width: 0;
+  border-radius: 3px;
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: inherit;
+  font-style: normal;
+  font-family: inherit;
+  font-weight: 500;
+  max-width: 100%;
+  position: relative;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: background 0.1s ease-out,box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38);
+  transition: background 0.1s ease-out,box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38);
+  white-space: nowrap;
+  background: #091E420A;
+  color: #42526E!important;
+  cursor: pointer;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 12px;
+  vertical-align: middle;
+  width: auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-0:visited {
+  background: #091E420A;
+  color: #42526E!important;
+}
+
+.emotion-0:hover {
+  background: #091E4214;
+  color: #42526E!important;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  transition-duration: 0s,0.15s;
+}
+
+.emotion-0:focus {
+  background: #091E420A;
+  color: #42526E!important;
+  box-shadow: 0 0 0 2px #4C9AFF;
+  transition-duration: 0s,0.2s;
+  outline: none;
+}
+
+.emotion-0:active {
+  background: rgba(179, 212, 255, 0.6);
+  color: #0052CC!important;
+  transition-duration: 0s,0s;
+}
+
+.emotion-0[data-firefox-is-active="true"] {
+  background: rgba(179, 212, 255, 0.6);
+  color: #0052CC!important;
+  transition-duration: 0s,0s;
+}
+
+.emotion-0[disabled]>*,
+.emotion-0[data-has-overlay="true"]>* {
+  pointer-events: none;
+}
+
+.emotion-0[disabled] {
+  background: #091E420A;
+  color: #A5ADBA!important;
+  cursor: not-allowed;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-0[data-has-overlay="true"] {
+  cursor: default;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-0[data-has-overlay="true"]:not([disabled]):hover,
+.emotion-0[data-has-overlay="true"]:not([disabled]):active {
+  background: #091E420A;
+  color: #42526E!important;
+}
+
+.emotion-0::-moz-focus-inner {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.emotion-1 {
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  opacity: 1;
+  margin: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.emotion-2 {
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  opacity: 1;
+  margin: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.emotion-2:before {
+  content: '';
+  display: block;
+}
+
+.emotion-3 {
+  background-color: #6554C0;
+  border-radius: 3px;
+  color: #FFFFFF;
+  box-shadow: 0 3px 5px rgba(9, 30, 66, 0.2),0 0 1px rgba(9, 30, 66, 0.31);
+  box-sizing: border-box;
+  display: block;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  overflow: visible;
+  z-index: 400;
+}
+
+.emotion-3:after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background: #6554C0;
+}
+
+.emotion-3[data-placement^='bottom']:after {
+  top: -5px;
+  left: 50%;
+  margin-left: -5px;
+}
+
+.emotion-3[data-placement^='top']:after {
+  bottom: -5px;
+  left: 50%;
+  margin-left: -5px;
+}
+
+.emotion-3[data-placement^='left']:after {
+  top: 50%;
+  right: -5px;
+  margin-top: -5px;
+}
+
+.emotion-3[data-placement^='right']:after {
+  top: 50%;
+  left: -5px;
+  margin-top: -5px;
+}
+
+.emotion-3:focus {
+  outline: none;
+}
+
+.emotion-6 {
+  box-sizing: border-box;
+  max-width: 250px;
+  padding: 16px 16px 8px;
+}
+
+.emotion-7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  padding: 0 14px 16px;
+}
+
+.emotion-8 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  margin: 0 2px;
+}
+
+.emotion-9 {
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  border-width: 0;
+  border-radius: 3px;
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: inherit;
+  font-style: normal;
+  font-family: inherit;
+  font-weight: 500;
+  max-width: 100%;
+  position: relative;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: background 0.1s ease-out,box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38);
+  transition: background 0.1s ease-out,box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38);
+  white-space: nowrap;
+  background: #5243AA;
+  color: #FFFFFF!important;
+  cursor: pointer;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 12px;
+  vertical-align: middle;
+  width: auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-9:visited {
+  background: #5243AA;
+  color: #FFFFFF!important;
+}
+
+.emotion-9:hover {
+  background: #8777D9;
+  color: #FFFFFF!important;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  transition-duration: 0s,0.15s;
+}
+
+.emotion-9:focus {
+  background: #5243AA;
+  color: #FFFFFF!important;
+  box-shadow: 0 0 0 2px #998DD9;
+  transition-duration: 0s,0.2s;
+  outline: none;
+}
+
+.emotion-9:active {
+  background: #403294;
+  color: #FFFFFF!important;
+  transition-duration: 0s,0s;
+}
+
+.emotion-9[data-firefox-is-active="true"] {
+  background: #403294;
+  color: #FFFFFF!important;
+  transition-duration: 0s,0s;
+}
+
+.emotion-9[disabled]>*,
+.emotion-9[data-has-overlay="true"]>* {
+  pointer-events: none;
+}
+
+.emotion-9[disabled] {
+  background: #091E420A;
+  color: #A5ADBA!important;
+  cursor: not-allowed;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-9[data-has-overlay="true"] {
+  cursor: default;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-9[data-has-overlay="true"]:not([disabled]):hover,
+.emotion-9[data-has-overlay="true"]:not([disabled]):active {
+  background: #5243AA;
+  color: #FFFFFF!important;
+}
+
+.emotion-9::-moz-focus-inner {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+<AccentPopup
+  action={
+    Object {
+      "onClick": [Function],
+      "text": "Got it!",
+    }
+  }
+  content={
+    <div>
+      content
+    </div>
+  }
+  isOpen={true}
+  trigger={[Function]}
+>
+  <Memo()
+    appearance="accent"
+    autoFocus={false}
+    content={[Function]}
+    fallbackPlacements={
+      Array [
+        "top",
+        "right",
+        "left",
+      ]
+    }
+    isOpen={true}
+    placement="bottom"
+    trigger={[Function]}
+  >
+    <Manager>
+      <Reference>
+        <Button
+          aria-expanded={true}
+          aria-haspopup={true}
+        >
+          <ForwardRef(ButtonBase)
+            aria-expanded={true}
+            aria-haspopup={true}
+            buttonCss={[Function]}
+            onMouseDown={[Function]}
+            onMouseUp={[Function]}
+          >
+            <button
+              aria-expanded={true}
+              aria-haspopup={true}
+              className="emotion-0"
+              disabled={false}
+              onClick={[Function]}
+              onMouseDown={[Function]}
+              onMouseUp={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              <Styled(span)
+                className="emotion-1"
+              >
+                <span
+                  className="emotion-2"
+                >
+                  Just Accent
+                </span>
+              </Styled(span)>
+            </button>
+          </ForwardRef(ButtonBase)>
+        </Button>
+      </Reference>
+      <Portal
+        zIndex={400}
+      >
+        <Portal
+          containerInfo={
+            .emotion-0 {
+  background-color: #6554C0;
+  border-radius: 3px;
+  color: #FFFFFF;
+  box-shadow: 0 3px 5px rgba(9, 30, 66, 0.2),0 0 1px rgba(9, 30, 66, 0.31);
+  box-sizing: border-box;
+  display: block;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  overflow: visible;
+  z-index: 400;
+}
+
+.emotion-0:after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background: #6554C0;
+}
+
+.emotion-0[data-placement^='bottom']:after {
+  top: -5px;
+  left: 50%;
+  margin-left: -5px;
+}
+
+.emotion-0[data-placement^='top']:after {
+  bottom: -5px;
+  left: 50%;
+  margin-left: -5px;
+}
+
+.emotion-0[data-placement^='left']:after {
+  top: 50%;
+  right: -5px;
+  margin-top: -5px;
+}
+
+.emotion-0[data-placement^='right']:after {
+  top: 50%;
+  left: -5px;
+  margin-top: -5px;
+}
+
+.emotion-0:focus {
+  outline: none;
+}
+
+.emotion-2 {
+  box-sizing: border-box;
+  max-width: 250px;
+  padding: 16px 16px 8px;
+}
+
+.emotion-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  padding: 0 14px 16px;
+}
+
+.emotion-4 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  margin: 0 2px;
+}
+
+.emotion-5 {
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  border-width: 0;
+  border-radius: 3px;
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: inherit;
+  font-style: normal;
+  font-family: inherit;
+  font-weight: 500;
+  max-width: 100%;
+  position: relative;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: background 0.1s ease-out,box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38);
+  transition: background 0.1s ease-out,box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38);
+  white-space: nowrap;
+  background: #5243AA;
+  color: #FFFFFF!important;
+  cursor: pointer;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 12px;
+  vertical-align: middle;
+  width: auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-5:visited {
+  background: #5243AA;
+  color: #FFFFFF!important;
+}
+
+.emotion-5:hover {
+  background: #8777D9;
+  color: #FFFFFF!important;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  transition-duration: 0s,0.15s;
+}
+
+.emotion-5:focus {
+  background: #5243AA;
+  color: #FFFFFF!important;
+  box-shadow: 0 0 0 2px #998DD9;
+  transition-duration: 0s,0.2s;
+  outline: none;
+}
+
+.emotion-5:active {
+  background: #403294;
+  color: #FFFFFF!important;
+  transition-duration: 0s,0s;
+}
+
+.emotion-5[data-firefox-is-active="true"] {
+  background: #403294;
+  color: #FFFFFF!important;
+  transition-duration: 0s,0s;
+}
+
+.emotion-5[disabled]>*,
+.emotion-5[data-has-overlay="true"]>* {
+  pointer-events: none;
+}
+
+.emotion-5[disabled] {
+  background: #091E420A;
+  color: #A5ADBA!important;
+  cursor: not-allowed;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-5[data-has-overlay="true"] {
+  cursor: default;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-5[data-has-overlay="true"]:not([disabled]):hover,
+.emotion-5[data-has-overlay="true"]:not([disabled]):active {
+  background: #5243AA;
+  color: #FFFFFF!important;
+}
+
+.emotion-5::-moz-focus-inner {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.emotion-6 {
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  opacity: 1;
+  margin: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.emotion-6:before {
+  content: '';
+  display: block;
+}
+
+<div
+              class="atlaskit-portal"
+              style="z-index: 400;"
+            >
+              <div
+                class="emotion-0"
+                data-focus-lock="true"
+                data-placement="bottom"
+                style="position: fixed; left: 0px; top: 0px;"
+                tabindex="-1"
+              >
+                <div
+                  class="emotion-1"
+                >
+                  <div
+                    class="emotion-2"
+                  >
+                    <div>
+                      content
+                    </div>
+                  </div>
+                  <div
+                    class="emotion-3"
+                  >
+                    <div
+                      class="emotion-4"
+                    >
+                      <button
+                        class="emotion-5"
+                        tabindex="0"
+                        type="button"
+                      >
+                        <span
+                          class="emotion-6"
+                        >
+                          Got it!
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          }
+        >
+          <Popper
+            modifiers={
+              Array [
+                Object {
+                  "enabled": true,
+                  "name": "flip",
+                  "options": Object {
+                    "boundary": undefined,
+                    "fallbackPlacements": Array [
+                      "top",
+                      "right",
+                      "left",
+                    ],
+                    "rootBoundary": "viewport",
+                  },
+                },
+              ]
+            }
+            placement="bottom"
+          >
+            <Popper
+              modifiers={
+                Array [
+                  Object {
+                    "name": "flip",
+                    "options": Object {
+                      "boundary": "clippingParents",
+                      "flipVariations": false,
+                      "padding": 5,
+                      "rootBoundary": "viewport",
+                    },
+                  },
+                  Object {
+                    "name": "preventOverflow",
+                    "options": Object {
+                      "padding": 5,
+                      "rootBoundary": "viewport",
+                    },
+                  },
+                  Object {
+                    "name": "offset",
+                    "options": Object {
+                      "offset": Array [
+                        0,
+                        8,
+                      ],
+                    },
+                  },
+                  Object {
+                    "enabled": true,
+                    "name": "flip",
+                    "options": Object {
+                      "boundary": undefined,
+                      "fallbackPlacements": Array [
+                        "top",
+                        "right",
+                        "left",
+                      ],
+                      "rootBoundary": "viewport",
+                    },
+                  },
+                ]
+              }
+              placement="bottom"
+              strategy="fixed"
+            >
+              <ForwardRef(FocusLockComponent)
+                autoFocus={false}
+                className="emotion-3"
+                data-placement="bottom"
+                isEnabled={true}
+                shouldReturnFocus={false}
+                style={
+                  Object {
+                    "left": "0",
+                    "position": "fixed",
+                    "top": "0",
+                  }
+                }
+              >
+                <div
+                  className="emotion-3"
+                  data-focus-lock="true"
+                  data-placement="bottom"
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "left": "0",
+                      "position": "fixed",
+                      "top": "0",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <RepositionOnUpdate
+                    content={[Function]}
+                    update={[Function]}
+                  >
+                    <Styled(div)
+                      isOpen={true}
+                      isReferenceHidden={null}
+                      setInitialFocusRef={[Function]}
+                      update={[Function]}
+                    >
+                      <div
+                        className="emotion-5"
+                      >
+                        <Styled(div)
+                          bannerShown={false}
+                        >
+                          <div
+                            className="emotion-6"
+                          >
+                            <div>
+                              content
+                            </div>
+                          </div>
+                        </Styled(div)>
+                        <Styled(div)>
+                          <div
+                            className="emotion-7"
+                          >
+                            <Styled(div)
+                              key="0"
+                            >
+                              <div
+                                className="emotion-8"
+                              >
+                                <Button
+                                  appearance="accent"
+                                  onClick={[Function]}
+                                >
+                                  <ForwardRef(ButtonBase)
+                                    appearance="accent"
+                                    buttonCss={[Function]}
+                                    onClick={[Function]}
+                                    onMouseDown={[Function]}
+                                    onMouseUp={[Function]}
+                                  >
+                                    <button
+                                      className="emotion-9"
+                                      disabled={false}
+                                      onClick={[Function]}
+                                      onMouseDown={[Function]}
+                                      onMouseUp={[Function]}
+                                      tabIndex={0}
+                                      type="button"
+                                    >
+                                      <Styled(span)
+                                        className="emotion-1"
+                                      >
+                                        <span
+                                          className="emotion-2"
+                                        >
+                                          Got it!
+                                        </span>
+                                      </Styled(span)>
+                                    </button>
+                                  </ForwardRef(ButtonBase)>
+                                </Button>
+                              </div>
+                            </Styled(div)>
+                          </div>
+                        </Styled(div)>
+                      </div>
+                    </Styled(div)>
+                  </RepositionOnUpdate>
+                </div>
+              </ForwardRef(FocusLockComponent)>
+            </Popper>
+          </Popper>
+        </Portal>
+      </Portal>
+    </Manager>
+  </Memo()>
+</AccentPopup>
+`;
+
+exports[`matches snapshot with multiple actions and banner 1`] = `
+.emotion-0 {
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  border-width: 0;
+  border-radius: 3px;
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: inherit;
+  font-style: normal;
+  font-family: inherit;
+  font-weight: 500;
+  max-width: 100%;
+  position: relative;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: background 0.1s ease-out,box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38);
+  transition: background 0.1s ease-out,box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38);
+  white-space: nowrap;
+  background: #091E420A;
+  color: #42526E!important;
+  cursor: pointer;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 12px;
+  vertical-align: middle;
+  width: auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-0:visited {
+  background: #091E420A;
+  color: #42526E!important;
+}
+
+.emotion-0:hover {
+  background: #091E4214;
+  color: #42526E!important;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  transition-duration: 0s,0.15s;
+}
+
+.emotion-0:focus {
+  background: #091E420A;
+  color: #42526E!important;
+  box-shadow: 0 0 0 2px #4C9AFF;
+  transition-duration: 0s,0.2s;
+  outline: none;
+}
+
+.emotion-0:active {
+  background: rgba(179, 212, 255, 0.6);
+  color: #0052CC!important;
+  transition-duration: 0s,0s;
+}
+
+.emotion-0[data-firefox-is-active="true"] {
+  background: rgba(179, 212, 255, 0.6);
+  color: #0052CC!important;
+  transition-duration: 0s,0s;
+}
+
+.emotion-0[disabled]>*,
+.emotion-0[data-has-overlay="true"]>* {
+  pointer-events: none;
+}
+
+.emotion-0[disabled] {
+  background: #091E420A;
+  color: #A5ADBA!important;
+  cursor: not-allowed;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-0[data-has-overlay="true"] {
+  cursor: default;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-0[data-has-overlay="true"]:not([disabled]):hover,
+.emotion-0[data-has-overlay="true"]:not([disabled]):active {
+  background: #091E420A;
+  color: #42526E!important;
+}
+
+.emotion-0::-moz-focus-inner {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.emotion-1 {
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  opacity: 1;
+  margin: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.emotion-2 {
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  opacity: 1;
+  margin: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.emotion-2:before {
+  content: '';
+  display: block;
+}
+
+.emotion-3 {
+  background-color: #6554C0;
+  border-radius: 3px;
+  color: #FFFFFF;
+  box-shadow: 0 3px 5px rgba(9, 30, 66, 0.2),0 0 1px rgba(9, 30, 66, 0.31);
+  box-sizing: border-box;
+  display: block;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  overflow: visible;
+  z-index: 400;
+}
+
+.emotion-3:after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background: #6554C0;
+}
+
+.emotion-3[data-placement^='bottom']:after {
+  top: -5px;
+  left: 50%;
+  margin-left: -5px;
+}
+
+.emotion-3[data-placement^='top']:after {
+  bottom: -5px;
+  left: 50%;
+  margin-left: -5px;
+}
+
+.emotion-3[data-placement^='left']:after {
+  top: 50%;
+  right: -5px;
+  margin-top: -5px;
+}
+
+.emotion-3[data-placement^='right']:after {
+  top: 50%;
+  left: -5px;
+  margin-top: -5px;
+}
+
+.emotion-3:focus {
+  outline: none;
+}
+
+.emotion-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  height: 48px;
+  margin-top: 8px;
+  font-size: 22px;
+  font-weight: 700;
+  background: url('banner.png') 0 0 no-repeat;
+}
+
+@media only screen and (min-resolution: 2dppx) {
+  .emotion-6 {
+    background-image: url('banner-2x.png');
+  }
+}
+
+.emotion-7 {
+  box-sizing: border-box;
+  max-width: 250px;
+  padding: 8px 16px 8px;
+}
+
+.emotion-8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  padding: 0 14px 16px;
+}
+
+.emotion-9 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  margin: 0 2px;
+}
+
+.emotion-10 {
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  border-width: 0;
+  border-radius: 3px;
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: inherit;
+  font-style: normal;
+  font-family: inherit;
+  font-weight: 500;
+  max-width: 100%;
+  position: relative;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: background 0.1s ease-out,box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38);
+  transition: background 0.1s ease-out,box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38);
+  white-space: nowrap;
+  background: none;
+  color: #FFFFFF!important;
+  cursor: pointer;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 12px;
+  vertical-align: middle;
+  width: auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-10:visited {
+  background: none;
+  color: #FFFFFF!important;
+}
+
+.emotion-10:hover {
+  background: #8777D9;
+  color: #FFFFFF!important;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  transition-duration: 0s,0.15s;
+}
+
+.emotion-10:focus {
+  background: none;
+  color: #FFFFFF!important;
+  box-shadow: 0 0 0 2px #998DD9;
+  transition-duration: 0s,0.2s;
+  outline: none;
+}
+
+.emotion-10:active {
+  background: #403294;
+  color: #FFFFFF!important;
+  transition-duration: 0s,0s;
+}
+
+.emotion-10[data-firefox-is-active="true"] {
+  background: #403294;
+  color: #FFFFFF!important;
+  transition-duration: 0s,0s;
+}
+
+.emotion-10[disabled]>*,
+.emotion-10[data-has-overlay="true"]>* {
+  pointer-events: none;
+}
+
+.emotion-10[disabled] {
+  background: #091E420A;
+  color: #A5ADBA!important;
+  cursor: not-allowed;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-10[data-has-overlay="true"] {
+  cursor: default;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-10[data-has-overlay="true"]:not([disabled]):hover,
+.emotion-10[data-has-overlay="true"]:not([disabled]):active {
+  background: none;
+  color: #FFFFFF!important;
+}
+
+.emotion-10::-moz-focus-inner {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.emotion-11 {
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  opacity: 1;
+  margin: 0 4px 0 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.emotion-12 {
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  opacity: 1;
+  margin: 0 4px 0 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.emotion-12:before {
+  content: '';
+  display: block;
+}
+
+.emotion-13 {
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  opacity: 1;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  line-height: 0;
+  font-size: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin: 0;
+  margin-right: -3px;
+}
+
+.emotion-14 {
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  opacity: 1;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  line-height: 0;
+  font-size: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin: 0;
+  margin-right: -3px;
+}
+
+.emotion-15 {
+  height: 16px;
+  width: 16px;
+  color: currentColor;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  fill: #FFFFFF;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.emotion-15>svg {
+  height: 16px;
+  width: 16px;
+  max-height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.emotion-17 {
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  border-width: 0;
+  border-radius: 3px;
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: inherit;
+  font-style: normal;
+  font-family: inherit;
+  font-weight: 500;
+  max-width: 100%;
+  position: relative;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: background 0.1s ease-out,box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38);
+  transition: background 0.1s ease-out,box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38);
+  white-space: nowrap;
+  background: #5243AA;
+  color: #FFFFFF!important;
+  cursor: pointer;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 12px;
+  vertical-align: middle;
+  width: auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-17:visited {
+  background: #5243AA;
+  color: #FFFFFF!important;
+}
+
+.emotion-17:hover {
+  background: #8777D9;
+  color: #FFFFFF!important;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  transition-duration: 0s,0.15s;
+}
+
+.emotion-17:focus {
+  background: #5243AA;
+  color: #FFFFFF!important;
+  box-shadow: 0 0 0 2px #998DD9;
+  transition-duration: 0s,0.2s;
+  outline: none;
+}
+
+.emotion-17:active {
+  background: #403294;
+  color: #FFFFFF!important;
+  transition-duration: 0s,0s;
+}
+
+.emotion-17[data-firefox-is-active="true"] {
+  background: #403294;
+  color: #FFFFFF!important;
+  transition-duration: 0s,0s;
+}
+
+.emotion-17[disabled]>*,
+.emotion-17[data-has-overlay="true"]>* {
+  pointer-events: none;
+}
+
+.emotion-17[disabled] {
+  background: #091E420A;
+  color: #A5ADBA!important;
+  cursor: not-allowed;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-17[data-has-overlay="true"] {
+  cursor: default;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-17[data-has-overlay="true"]:not([disabled]):hover,
+.emotion-17[data-has-overlay="true"]:not([disabled]):active {
+  background: #5243AA;
+  color: #FFFFFF!important;
+}
+
+.emotion-17::-moz-focus-inner {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+<AccentPopup
+  actions={
+    Array [
+      Object {
+        "appearance": "accent-subtle",
+        "iconAfter": <ExternalLinkIcon
+          size="small"
+        />,
+        "onClick": [Function],
+        "text": "Learn more",
+      },
+      Object {
+        "onClick": [Function],
+        "text": "Got it!",
+      },
+    ]
+  }
+  content={
+    <div>
+      content
+    </div>
+  }
+  isOpen={true}
+  title="New Feature!"
+  trigger={[Function]}
+>
+  <Memo()
+    appearance="accent"
+    autoFocus={false}
+    content={[Function]}
+    fallbackPlacements={
+      Array [
+        "top",
+        "right",
+        "left",
+      ]
+    }
+    isOpen={true}
+    placement="bottom"
+    trigger={[Function]}
+  >
+    <Manager>
+      <Reference>
+        <Button
+          aria-expanded={true}
+          aria-haspopup={true}
+        >
+          <ForwardRef(ButtonBase)
+            aria-expanded={true}
+            aria-haspopup={true}
+            buttonCss={[Function]}
+            onMouseDown={[Function]}
+            onMouseUp={[Function]}
+          >
+            <button
+              aria-expanded={true}
+              aria-haspopup={true}
+              className="emotion-0"
+              disabled={false}
+              onClick={[Function]}
+              onMouseDown={[Function]}
+              onMouseUp={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              <Styled(span)
+                className="emotion-1"
+              >
+                <span
+                  className="emotion-2"
+                >
+                  Just Accent
+                </span>
+              </Styled(span)>
+            </button>
+          </ForwardRef(ButtonBase)>
+        </Button>
+      </Reference>
+      <Portal
+        zIndex={400}
+      >
+        <Portal
+          containerInfo={
+            .emotion-0 {
+  background-color: #6554C0;
+  border-radius: 3px;
+  color: #FFFFFF;
+  box-shadow: 0 3px 5px rgba(9, 30, 66, 0.2),0 0 1px rgba(9, 30, 66, 0.31);
+  box-sizing: border-box;
+  display: block;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  overflow: visible;
+  z-index: 400;
+}
+
+.emotion-0:after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background: #6554C0;
+}
+
+.emotion-0[data-placement^='bottom']:after {
+  top: -5px;
+  left: 50%;
+  margin-left: -5px;
+}
+
+.emotion-0[data-placement^='top']:after {
+  bottom: -5px;
+  left: 50%;
+  margin-left: -5px;
+}
+
+.emotion-0[data-placement^='left']:after {
+  top: 50%;
+  right: -5px;
+  margin-top: -5px;
+}
+
+.emotion-0[data-placement^='right']:after {
+  top: 50%;
+  left: -5px;
+  margin-top: -5px;
+}
+
+.emotion-0:focus {
+  outline: none;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  height: 48px;
+  margin-top: 8px;
+  font-size: 22px;
+  font-weight: 700;
+  background: url('banner.png') 0 0 no-repeat;
+}
+
+@media only screen and (min-resolution: 2dppx) {
+  .emotion-2 {
+    background-image: url('banner-2x.png');
+  }
+}
+
+.emotion-3 {
+  box-sizing: border-box;
+  max-width: 250px;
+  padding: 8px 16px 8px;
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  padding: 0 14px 16px;
+}
+
+.emotion-5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  margin: 0 2px;
+}
+
+.emotion-6 {
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  border-width: 0;
+  border-radius: 3px;
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: inherit;
+  font-style: normal;
+  font-family: inherit;
+  font-weight: 500;
+  max-width: 100%;
+  position: relative;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: background 0.1s ease-out,box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38);
+  transition: background 0.1s ease-out,box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38);
+  white-space: nowrap;
+  background: none;
+  color: #FFFFFF!important;
+  cursor: pointer;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 12px;
+  vertical-align: middle;
+  width: auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-6:visited {
+  background: none;
+  color: #FFFFFF!important;
+}
+
+.emotion-6:hover {
+  background: #8777D9;
+  color: #FFFFFF!important;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  transition-duration: 0s,0.15s;
+}
+
+.emotion-6:focus {
+  background: none;
+  color: #FFFFFF!important;
+  box-shadow: 0 0 0 2px #998DD9;
+  transition-duration: 0s,0.2s;
+  outline: none;
+}
+
+.emotion-6:active {
+  background: #403294;
+  color: #FFFFFF!important;
+  transition-duration: 0s,0s;
+}
+
+.emotion-6[data-firefox-is-active="true"] {
+  background: #403294;
+  color: #FFFFFF!important;
+  transition-duration: 0s,0s;
+}
+
+.emotion-6[disabled]>*,
+.emotion-6[data-has-overlay="true"]>* {
+  pointer-events: none;
+}
+
+.emotion-6[disabled] {
+  background: #091E420A;
+  color: #A5ADBA!important;
+  cursor: not-allowed;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-6[data-has-overlay="true"] {
+  cursor: default;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-6[data-has-overlay="true"]:not([disabled]):hover,
+.emotion-6[data-has-overlay="true"]:not([disabled]):active {
+  background: none;
+  color: #FFFFFF!important;
+}
+
+.emotion-6::-moz-focus-inner {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.emotion-7 {
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  opacity: 1;
+  margin: 0 4px 0 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.emotion-7:before {
+  content: '';
+  display: block;
+}
+
+.emotion-8 {
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  opacity: 1;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  line-height: 0;
+  font-size: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin: 0;
+  margin-right: -3px;
+}
+
+.emotion-9 {
+  height: 16px;
+  width: 16px;
+  color: currentColor;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  fill: #FFFFFF;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.emotion-9>svg {
+  height: 16px;
+  width: 16px;
+  max-height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.emotion-11 {
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  border-width: 0;
+  border-radius: 3px;
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: inherit;
+  font-style: normal;
+  font-family: inherit;
+  font-weight: 500;
+  max-width: 100%;
+  position: relative;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: background 0.1s ease-out,box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38);
+  transition: background 0.1s ease-out,box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38);
+  white-space: nowrap;
+  background: #5243AA;
+  color: #FFFFFF!important;
+  cursor: pointer;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 12px;
+  vertical-align: middle;
+  width: auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-11:visited {
+  background: #5243AA;
+  color: #FFFFFF!important;
+}
+
+.emotion-11:hover {
+  background: #8777D9;
+  color: #FFFFFF!important;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  transition-duration: 0s,0.15s;
+}
+
+.emotion-11:focus {
+  background: #5243AA;
+  color: #FFFFFF!important;
+  box-shadow: 0 0 0 2px #998DD9;
+  transition-duration: 0s,0.2s;
+  outline: none;
+}
+
+.emotion-11:active {
+  background: #403294;
+  color: #FFFFFF!important;
+  transition-duration: 0s,0s;
+}
+
+.emotion-11[data-firefox-is-active="true"] {
+  background: #403294;
+  color: #FFFFFF!important;
+  transition-duration: 0s,0s;
+}
+
+.emotion-11[disabled]>*,
+.emotion-11[data-has-overlay="true"]>* {
+  pointer-events: none;
+}
+
+.emotion-11[disabled] {
+  background: #091E420A;
+  color: #A5ADBA!important;
+  cursor: not-allowed;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-11[data-has-overlay="true"] {
+  cursor: default;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-11[data-has-overlay="true"]:not([disabled]):hover,
+.emotion-11[data-has-overlay="true"]:not([disabled]):active {
+  background: #5243AA;
+  color: #FFFFFF!important;
+}
+
+.emotion-11::-moz-focus-inner {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.emotion-12 {
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  opacity: 1;
+  margin: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.emotion-12:before {
+  content: '';
+  display: block;
+}
+
+<div
+              class="atlaskit-portal"
+              style="z-index: 400;"
+            >
+              <div
+                class="emotion-0"
+                data-focus-lock="true"
+                data-placement="bottom"
+                style="position: fixed; left: 0px; top: 0px;"
+                tabindex="-1"
+              >
+                <div
+                  class="emotion-1"
+                >
+                  <div
+                    class="emotion-2"
+                  >
+                    New Feature!
+                  </div>
+                  <div
+                    class="emotion-3"
+                  >
+                    <div>
+                      content
+                    </div>
+                  </div>
+                  <div
+                    class="emotion-4"
+                  >
+                    <div
+                      class="emotion-5"
+                    >
+                      <button
+                        class="emotion-6"
+                        tabindex="0"
+                        type="button"
+                      >
+                        <span
+                          class="emotion-7"
+                        >
+                          Learn more
+                        </span>
+                        <span
+                          class="emotion-8"
+                        >
+                          <span
+                            class="emotion-9"
+                            role="presentation"
+                          >
+                            <svg
+                              clip-rule="evenodd"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              height="16"
+                              viewBox="0 0 16 16"
+                              width="16"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              
+
+                              <path
+                                d="M5.99751 5L10.4975 5C10.7737 5 10.9975 5.22386 10.9975 5.5L10.9975 10C10.9975 10.2761 10.7737 10.5 10.4975 10.5C10.2214 10.5 9.99751 10.2761 9.99751 10L9.99751 6.70711L4.48711 12.2175L3.78 11.5104L9.29041 6L5.99751 6C5.72137 6 5.49751 5.77614 5.49751 5.5C5.49751 5.22386 5.72137 5 5.99751 5Z"
+                              />
+                              
+
+                            </svg>
+                          </span>
+                        </span>
+                      </button>
+                    </div>
+                    <div
+                      class="emotion-5"
+                    >
+                      <button
+                        class="emotion-11"
+                        tabindex="0"
+                        type="button"
+                      >
+                        <span
+                          class="emotion-12"
+                        >
+                          Got it!
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          }
+        >
+          <Popper
+            modifiers={
+              Array [
+                Object {
+                  "enabled": true,
+                  "name": "flip",
+                  "options": Object {
+                    "boundary": undefined,
+                    "fallbackPlacements": Array [
+                      "top",
+                      "right",
+                      "left",
+                    ],
+                    "rootBoundary": "viewport",
+                  },
+                },
+              ]
+            }
+            placement="bottom"
+          >
+            <Popper
+              modifiers={
+                Array [
+                  Object {
+                    "name": "flip",
+                    "options": Object {
+                      "boundary": "clippingParents",
+                      "flipVariations": false,
+                      "padding": 5,
+                      "rootBoundary": "viewport",
+                    },
+                  },
+                  Object {
+                    "name": "preventOverflow",
+                    "options": Object {
+                      "padding": 5,
+                      "rootBoundary": "viewport",
+                    },
+                  },
+                  Object {
+                    "name": "offset",
+                    "options": Object {
+                      "offset": Array [
+                        0,
+                        8,
+                      ],
+                    },
+                  },
+                  Object {
+                    "enabled": true,
+                    "name": "flip",
+                    "options": Object {
+                      "boundary": undefined,
+                      "fallbackPlacements": Array [
+                        "top",
+                        "right",
+                        "left",
+                      ],
+                      "rootBoundary": "viewport",
+                    },
+                  },
+                ]
+              }
+              placement="bottom"
+              strategy="fixed"
+            >
+              <ForwardRef(FocusLockComponent)
+                autoFocus={false}
+                className="emotion-3"
+                data-placement="bottom"
+                isEnabled={true}
+                shouldReturnFocus={false}
+                style={
+                  Object {
+                    "left": "0",
+                    "position": "fixed",
+                    "top": "0",
+                  }
+                }
+              >
+                <div
+                  className="emotion-3"
+                  data-focus-lock="true"
+                  data-placement="bottom"
+                  onKeyDown={[Function]}
+                  style={
+                    Object {
+                      "left": "0",
+                      "position": "fixed",
+                      "top": "0",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <RepositionOnUpdate
+                    content={[Function]}
+                    update={[Function]}
+                  >
+                    <Styled(div)
+                      isOpen={true}
+                      isReferenceHidden={null}
+                      setInitialFocusRef={[Function]}
+                      update={[Function]}
+                    >
+                      <div
+                        className="emotion-5"
+                      >
+                        <Styled(div)>
+                          <div
+                            className="emotion-6"
+                          >
+                            New Feature!
+                          </div>
+                        </Styled(div)>
+                        <Styled(div)
+                          bannerShown={true}
+                        >
+                          <div
+                            className="emotion-7"
+                          >
+                            <div>
+                              content
+                            </div>
+                          </div>
+                        </Styled(div)>
+                        <Styled(div)>
+                          <div
+                            className="emotion-8"
+                          >
+                            <Styled(div)
+                              key="0"
+                            >
+                              <div
+                                className="emotion-9"
+                              >
+                                <Button
+                                  appearance="accent-subtle"
+                                  iconAfter={
+                                    <ExternalLinkIcon
+                                      size="small"
+                                    />
+                                  }
+                                  onClick={[Function]}
+                                >
+                                  <ForwardRef(ButtonBase)
+                                    appearance="accent-subtle"
+                                    buttonCss={[Function]}
+                                    iconAfter={
+                                      <ExternalLinkIcon
+                                        size="small"
+                                      />
+                                    }
+                                    onClick={[Function]}
+                                    onMouseDown={[Function]}
+                                    onMouseUp={[Function]}
+                                  >
+                                    <button
+                                      className="emotion-10"
+                                      disabled={false}
+                                      onClick={[Function]}
+                                      onMouseDown={[Function]}
+                                      onMouseUp={[Function]}
+                                      tabIndex={0}
+                                      type="button"
+                                    >
+                                      <Styled(span)
+                                        className="emotion-11"
+                                      >
+                                        <span
+                                          className="emotion-12"
+                                        >
+                                          Learn more
+                                        </span>
+                                      </Styled(span)>
+                                      <Styled(span)
+                                        className="emotion-13"
+                                      >
+                                        <span
+                                          className="emotion-14"
+                                        >
+                                          <ExternalLinkIcon
+                                            size="small"
+                                          >
+                                            <Icon
+                                              dangerouslySetGlyph="<svg width=\\"16\\" height=\\"16\\" viewBox=\\"0 0 16 16\\" fill=\\"currentColor\\" fill-rule=\\"evenodd\\" clip-rule=\\"evenodd\\" xmlns=\\"http://www.w3.org/2000/svg\\">
+<path d=\\"M5.99751 5L10.4975 5C10.7737 5 10.9975 5.22386 10.9975 5.5L10.9975 10C10.9975 10.2761 10.7737 10.5 10.4975 10.5C10.2214 10.5 9.99751 10.2761 9.99751 10L9.99751 6.70711L4.48711 12.2175L3.78 11.5104L9.29041 6L5.99751 6C5.72137 6 5.49751 5.77614 5.49751 5.5C5.49751 5.22386 5.72137 5 5.99751 5Z\\" />
+</svg>"
+                                              size="small"
+                                            >
+                                              <Styled(span)
+                                                dangerouslySetInnerHTML={
+                                                  Object {
+                                                    "__html": "<svg width=\\"16\\" height=\\"16\\" viewBox=\\"0 0 16 16\\" fill=\\"currentColor\\" fill-rule=\\"evenodd\\" clip-rule=\\"evenodd\\" xmlns=\\"http://www.w3.org/2000/svg\\">
+<path d=\\"M5.99751 5L10.4975 5C10.7737 5 10.9975 5.22386 10.9975 5.5L10.9975 10C10.9975 10.2761 10.7737 10.5 10.4975 10.5C10.2214 10.5 9.99751 10.2761 9.99751 10L9.99751 6.70711L4.48711 12.2175L3.78 11.5104L9.29041 6L5.99751 6C5.72137 6 5.49751 5.77614 5.49751 5.5C5.49751 5.22386 5.72137 5 5.99751 5Z\\" />
+</svg>",
+                                                  }
+                                                }
+                                                role="presentation"
+                                                size="small"
+                                              >
+                                                <span
+                                                  className="emotion-15"
+                                                  dangerouslySetInnerHTML={
+                                                    Object {
+                                                      "__html": "<svg width=\\"16\\" height=\\"16\\" viewBox=\\"0 0 16 16\\" fill=\\"currentColor\\" fill-rule=\\"evenodd\\" clip-rule=\\"evenodd\\" xmlns=\\"http://www.w3.org/2000/svg\\">
+<path d=\\"M5.99751 5L10.4975 5C10.7737 5 10.9975 5.22386 10.9975 5.5L10.9975 10C10.9975 10.2761 10.7737 10.5 10.4975 10.5C10.2214 10.5 9.99751 10.2761 9.99751 10L9.99751 6.70711L4.48711 12.2175L3.78 11.5104L9.29041 6L5.99751 6C5.72137 6 5.49751 5.77614 5.49751 5.5C5.49751 5.22386 5.72137 5 5.99751 5Z\\" />
+</svg>",
+                                                    }
+                                                  }
+                                                  role="presentation"
+                                                  size="small"
+                                                />
+                                              </Styled(span)>
+                                            </Icon>
+                                          </ExternalLinkIcon>
+                                        </span>
+                                      </Styled(span)>
+                                    </button>
+                                  </ForwardRef(ButtonBase)>
+                                </Button>
+                              </div>
+                            </Styled(div)>
+                            <Styled(div)
+                              key="1"
+                            >
+                              <div
+                                className="emotion-9"
+                              >
+                                <Button
+                                  appearance="accent"
+                                  onClick={[Function]}
+                                >
+                                  <ForwardRef(ButtonBase)
+                                    appearance="accent"
+                                    buttonCss={[Function]}
+                                    onClick={[Function]}
+                                    onMouseDown={[Function]}
+                                    onMouseUp={[Function]}
+                                  >
+                                    <button
+                                      className="emotion-17"
+                                      disabled={false}
+                                      onClick={[Function]}
+                                      onMouseDown={[Function]}
+                                      onMouseUp={[Function]}
+                                      tabIndex={0}
+                                      type="button"
+                                    >
+                                      <Styled(span)
+                                        className="emotion-1"
+                                      >
+                                        <span
+                                          className="emotion-2"
+                                        >
+                                          Got it!
+                                        </span>
+                                      </Styled(span)>
+                                    </button>
+                                  </ForwardRef(ButtonBase)>
+                                </Button>
+                              </div>
+                            </Styled(div)>
+                          </div>
+                        </Styled(div)>
+                      </div>
+                    </Styled(div)>
+                  </RepositionOnUpdate>
+                </div>
+              </ForwardRef(FocusLockComponent)>
+            </Popper>
+          </Popper>
+        </Portal>
+      </Portal>
+    </Manager>
+  </Memo()>
+</AccentPopup>
+`;

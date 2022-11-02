@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+.emotion-0 {
+  background-color: #FFFFFF;
+  border-radius: 3px;
+  color: inherit;
+  box-shadow: 0 3px 5px rgba(9, 30, 66, 0.2),0 0 1px rgba(9, 30, 66, 0.31);
+  box-sizing: border-box;
+  display: block;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  overflow: auto;
+  z-index: 400;
+}
+
+.emotion-0:focus {
+  outline: none;
+}
+
+<Memo()
+  content={[Function]}
+  isOpen={true}
+  trigger={[Function]}
+>
+  <Manager>
+    <Reference>
+      <button
+        aria-expanded={true}
+        aria-haspopup={true}
+      >
+        trigger
+      </button>
+    </Reference>
+    <Portal
+      zIndex={400}
+    >
+      <Portal
+        containerInfo={
+          .emotion-0 {
+  background-color: #FFFFFF;
+  border-radius: 3px;
+  color: inherit;
+  box-shadow: 0 3px 5px rgba(9, 30, 66, 0.2),0 0 1px rgba(9, 30, 66, 0.31);
+  box-sizing: border-box;
+  display: block;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  overflow: auto;
+  z-index: 400;
+}
+
+.emotion-0:focus {
+  outline: none;
+}
+
+<div
+            class="atlaskit-portal"
+            style="z-index: 400;"
+          >
+            <div
+              class="emotion-0"
+              data-focus-lock="true"
+              data-placement="auto"
+              style="position: fixed; left: 0px; top: 0px;"
+              tabindex="-1"
+            >
+              <div>
+                content
+              </div>
+            </div>
+          </div>
+        }
+      >
+        <Popper
+          modifiers={
+            Array [
+              Object {
+                "enabled": true,
+                "name": "flip",
+                "options": Object {
+                  "boundary": undefined,
+                  "rootBoundary": "viewport",
+                },
+              },
+            ]
+          }
+          placement="auto"
+        >
+          <Popper
+            modifiers={
+              Array [
+                Object {
+                  "name": "flip",
+                  "options": Object {
+                    "boundary": "clippingParents",
+                    "flipVariations": false,
+                    "padding": 5,
+                    "rootBoundary": "viewport",
+                  },
+                },
+                Object {
+                  "name": "preventOverflow",
+                  "options": Object {
+                    "padding": 5,
+                    "rootBoundary": "viewport",
+                  },
+                },
+                Object {
+                  "name": "offset",
+                  "options": Object {
+                    "offset": Array [
+                      0,
+                      8,
+                    ],
+                  },
+                },
+                Object {
+                  "enabled": true,
+                  "name": "flip",
+                  "options": Object {
+                    "boundary": undefined,
+                    "rootBoundary": "viewport",
+                  },
+                },
+              ]
+            }
+            placement="auto"
+            strategy="fixed"
+          >
+            <ForwardRef(FocusLockComponent)
+              autoFocus={true}
+              className="emotion-0"
+              data-placement="auto"
+              isEnabled={true}
+              shouldReturnFocus={false}
+              style={
+                Object {
+                  "left": "0",
+                  "position": "fixed",
+                  "top": "0",
+                }
+              }
+            >
+              <div
+                className="emotion-0"
+                data-focus-lock="true"
+                data-placement="auto"
+                onKeyDown={[Function]}
+                style={
+                  Object {
+                    "left": "0",
+                    "position": "fixed",
+                    "top": "0",
+                  }
+                }
+                tabIndex={-1}
+              >
+                <RepositionOnUpdate
+                  content={[Function]}
+                  update={[Function]}
+                >
+                  <div>
+                    content
+                  </div>
+                </RepositionOnUpdate>
+              </div>
+            </ForwardRef(FocusLockComponent)>
+          </Popper>
+        </Popper>
+      </Portal>
+    </Portal>
+  </Manager>
+</Memo()>
+`;

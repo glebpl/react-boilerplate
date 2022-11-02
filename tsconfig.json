@@ -14,6 +14,7 @@
     "moduleResolution": "node",
     "noEmitHelpers": true,
     "noImplicitAny": true,
+    "plugins": [{ "name": "typescript-plugin-css-modules" }],
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "sourceMap": true,
