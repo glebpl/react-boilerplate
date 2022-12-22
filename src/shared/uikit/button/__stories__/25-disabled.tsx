@@ -1,6 +1,5 @@
 /** @jsx jsx */
-// noinspection ES6UnusedImports
-import { jsx } from '@emotion/react';
+import { jsx, css } from '@emotion/react';
 import { actions as storybookActions } from '@storybook/addon-actions';
 import { useState, ReactElement } from 'react';
 import { gridSize } from '../../theme';
@@ -40,10 +39,10 @@ export default function Disabled(): ReactElement {
           <Button isDisabled={isDisabled} {...actions}>
             {'<button>'}
           </Button>
-          <Button isDisabled={isDisabled} href='#' {...actions}>
+          <Button isDisabled={isDisabled} href="#" {...actions}>
             {'<a>'}
           </Button>
-          <Button isDisabled={isDisabled} component='span' {...actions}>
+          <Button isDisabled={isDisabled} component="span" {...actions}>
             {'<span>'}
           </Button>
         </ButtonGroup>

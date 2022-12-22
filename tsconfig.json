@@ -21,7 +21,7 @@
     "strictBindCallApply": true,
     "strictNullChecks": true,
     "outDir": "build",
-    "target": "es5",
+    "target": "es2015",
     "useUnknownInCatchVariables": true
   },
   "include": [

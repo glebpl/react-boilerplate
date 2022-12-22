@@ -3,7 +3,7 @@
 import { jsx } from '@emotion/react';
 import { FC, useState } from 'react';
 import Button from '../../button';
-import { RadioGroup } from '../../radio';
+// import { RadioGroup } from '../../radio';
 import Popup from '../index';
 
 const radioValues = [
@@ -67,16 +67,16 @@ const SettingFocus: FC = () => {
             {isOpen ? 'Close' : 'Open'} popup with autoFocus=true
           </Button>
         )}
-        placement='right'
+        placement="right"
       />
       <p>
         <strong>Choose a button to focus initially:</strong>
       </p>
-      <RadioGroup
-        onChange={({ currentTarget: { value } }) => setButtonToFocus(value)}
-        defaultValue={radioValues[0].value}
-        options={radioValues}
-      />
+      {/*<RadioGroup*/}
+      {/*  onChange={({ currentTarget: { value } }) => setButtonToFocus(value)}*/}
+      {/*  defaultValue={radioValues[0].value}*/}
+      {/*  options={radioValues}*/}
+      {/*/>*/}
       <Popup
         autoFocus={false}
         isOpen={isOpen === 'forcedFocus'}
@@ -89,7 +89,7 @@ const SettingFocus: FC = () => {
             {isOpen === 'forcedFocus' ? 'Close' : 'Open'} Popup
           </Button>
         )}
-        placement='right'
+        placement="right"
       />
       <div
         css={{

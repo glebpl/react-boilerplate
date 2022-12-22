@@ -13,11 +13,11 @@ i18next.default = i18next;
 // JSDOM errors (usually inside callbacks) are logged using VirtualConsole to another console instance and don't pass to failOnConsole overrides.
 // We cannot override VirtualConsole, because they differs for each jest instance (parallel run). https://github.com/facebook/jest/issues/8393
 // We should try to find way to group these errors under top logger
-failOnConsole({
-  shouldFailOnError: true,
-  shouldFailOnWarn: true,
-  shouldFailOnLog: true
-});
+// failOnConsole({
+//   shouldFailOnError: true,
+//   shouldFailOnWarn: true,
+//   shouldFailOnLog: true
+// });
 
 // mock addon-actions to allow usage of these methods inside service mocks
 jest.mock('@storybook/addon-actions', () => {

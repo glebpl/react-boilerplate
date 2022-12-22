@@ -24,6 +24,7 @@ module.exports = {
   },
   plugins: ["@typescript-eslint", "react", "react-hooks", "jest", "testing-library"],
   rules: {
-    quotes: ["error", "single"]
+    quotes: ["error", "single"],
+    "react/no-unknown-property": ["error", { "ignore": ["css"] }]
   }
 };

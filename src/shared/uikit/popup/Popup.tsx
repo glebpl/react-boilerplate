@@ -7,7 +7,7 @@ import { Modifier } from 'react-popper';
 import { FocusLock } from '../focus-lock';
 import { FlipModifierOptions, Manager, Popper, Reference } from '../popper';
 import Portal from '../portal';
-import { EmotionTheme, layers } from '../theme';
+import { EmotionTheme } from '../theme';
 import setRef from '../utils/setRef';
 import { RepositionOnUpdate } from './RepositionOnUpdate';
 import { PopupProps } from './types';
@@ -32,7 +32,7 @@ export const Popup: FC<PopupProps> = memo(
     placement = 'auto',
     shouldFlip = true,
     fallbackPlacements,
-    zIndex = layers.layer(),
+    zIndex = 999, // layers.layer(),
     onPopupEscaped,
     onReferenceEscaped,
     lockFocus = true,

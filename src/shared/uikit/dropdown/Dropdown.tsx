@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { useCallback, useMemo, useRef } from 'react';
 import Popup from '../popup';
-import { layers } from '../theme';
 import DropdownEventContext, { useEventContext } from './DropdownEventContext';
 import { getFallbackPlacements, createTriggerFunc, useTriggerKeyDownHandler } from './internal/utils';
 import { Content } from './styled';
 import { DropdownProps } from './types';
 import { useForkRef, useOpenClose } from '../utils/hooks';
 
+// eslint-disable-next-line @typescript-eslint/no-empty-function
 const noop = () => {};
 
 const Dropdown: React.FC<DropdownProps> = props => {
@@ -21,7 +21,7 @@ const Dropdown: React.FC<DropdownProps> = props => {
     placement = 'bottom-start',
     popupRef: externalPopupRef = noop,
     testId,
-    zIndex = layers.dropdown()
+    zIndex = 999 // layers.dropdown()
   } = props;
   const triggerRef = useRef<HTMLElement>(null);
   const localPopupRef = useRef<HTMLDivElement>(null);

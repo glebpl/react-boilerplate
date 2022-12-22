@@ -6,7 +6,7 @@ const imageTransformConfig = {
 
 module.exports = {
   preset: 'ts-jest/presets/js-with-ts',
-  testEnvironment: 'jsdom',
+  testEnvironment: 'node',
   roots: ['<rootDir>/src'],
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   clearMocks: true,
